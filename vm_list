@@ -1,0 +1,7 @@
+# Put your VM names here
+
+tf-dc01
+tf-node01
+tf-node02
+tf-node03
+tf-mgmt01
