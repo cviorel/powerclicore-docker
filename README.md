@@ -15,6 +15,8 @@ docker run --rm -it vmware/powerclicore /bin/bash
 ## Create snapshot
 
 ```sh
+source .env
+
 docker run --rm \
 --entrypoint="/usr/bin/pwsh" \
 -e VI_SERVER=${VI_SERVER} \
@@ -29,6 +31,8 @@ vmware/powerclicore \
 ## Revert to last snapshot
 
 ```sh
+source .env
+
 docker run --rm \
 --entrypoint="/usr/bin/pwsh" \
 -e VI_SERVER=${VI_SERVER} \
@@ -43,6 +47,8 @@ vmware/powerclicore \
 ## Remove snapshots
 
 ```sh
+source .env
+
 docker run --rm \
 --entrypoint="/usr/bin/pwsh" \
 -e VI_SERVER=${VI_SERVER} \
