@@ -1,12 +1,12 @@
 ﻿# Manage VMs using PowerCLI
 
-## Download the container from the docker hub:
+## Download the container from the docker hub
 
 ```sh
 docker pull vmware/powerclicore
 ```
 
-## To open an interactive Terminal and run:
+## Open an interactive Terminal and run
 
 ```sh
 docker run --rm -it vmware/powerclicore /bin/bash
